@@ -1,0 +1,119 @@
+/*CSS RESET*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,a,div,img{
+    padding: 0; margin: 0;
+}
+table{
+    border-collapse:separate;
+    border-spacing:0;
+}
+img {
+    border: 0;
+    margin:0;
+}
+ul,li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 100%;
+}
+a{
+    color:#514339;
+    text-decoration:none;
+}
+a:hover{
+    color:#c10000;
+    text-decoration:underline;
+}
+body{
+    padding-top:60px;
+    font-size: 13px;
+    color: #514339;
+}
+/*CUSTOM CSS*/
+img{
+    max-width: 100%;
+}
+#scrollPics{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.num{
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+.num li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    /*background: rgba(222 222 222 0.7);*/
+    background: #c10000;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+.num .on{
+    background: #003399;
+}
+.arrow-left {
+    width:60px;
+    height:90px;
+    cursor: pointer;
+    background:#000 url(img/ad_ctr.png) no-repeat 5px -180px;
+    filter:alpha(opacity:50);
+    opacity:0.5;
+    position: absolute;
+    left:0;
+    top:205px;
+    display:none;
+}
+.arrow-left1 {
+    background-position: 3px top;
+}
+.arrow-right {
+    width:60px;
+    height:90px;
+    cursor: pointer;
+    background:#000 url(img/ad_ctr.png) no-repeat -5px bottom;
+    filter:alpha(opacity:50);
+    opacity:0.5;
+    position: absolute;
+    right:0;
+    top:205px;
+    display:none;
+}
+.arrow-right1 {
+    background-position:-3px -90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
