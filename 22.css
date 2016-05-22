@@ -27,7 +27,6 @@ a:hover{
     text-decoration:underline;
 }
 body{
-    padding-top:60px;
     font-size: 13px;
     color: #514339;
 }
@@ -38,7 +37,7 @@ img{
 #scrollPics{
     width: 500px;
     height: 500px;
-    position: relative;
+    position: absolute;
     margin: auto;
     overflow: hidden;
 }
@@ -93,6 +92,9 @@ img{
 }
 .arrow-right1 {
     background-position:-3px -90px;
+}
+canvas{
+    position:relative;
 }
 
 
