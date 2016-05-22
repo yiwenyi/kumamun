@@ -52,15 +52,17 @@ img{
     float: left;
     width: 15px;
     height: 15px;
-    /*background: rgba(222 222 222 0.7);*/
-    background: #c10000;
+    background: #666;
+    opacity: 0.8;
+    /*background: #c10000;*/
     border: 1px solid #ddd;
     border-radius: 50%;
     margin: 0 10px;
 
 }
 .num .on{
-    background: #003399;
+    background: #fc88d5;
+    opacity:0.9;
 }
 .arrow-left {
     width:60px;
